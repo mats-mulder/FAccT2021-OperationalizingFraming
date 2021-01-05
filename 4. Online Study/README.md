@@ -45,22 +45,18 @@ For the purpose of the experiment, however, a new functionality is implemented w
 ### Procedure
 
 __1. Select Editorial Articles:__
-
 Every morning at 6:30, the editorial team publishes five ’must reads’ on the platform. Directly after publication, these articles were manually checked to match
 any topic of the four data sets. Due to contractual limitations between Blendle and publishers, a maximum of two of these ’must reads’
 was selected every day for which recommendations were be provided.
 
 __2. Enrich new articles and calculate diversity and relevance matrices:__
-
 Afterwards, the two selected articles were enriched according to the enrichment pipeline. Based on this metadata and the metadata from all articles
 in the data set, the diversity and relevance matrices were composed, in which every
 entry describes the distance or relevance between the new article and an article in
 the data set.
 
 __3. Calculate recommendation for both user groups:__
-
 Based on the diversity and relevance matrices, the recommendations were calculated using the proposed viewpoint diversification for both the user group that receives the baseline recommendations and the user group that receives the diversified recommendations.
 
 __4. Publish recommendations:__
-
 Finally, these sets were sent to the Blendle back-end to be published on the platform.
