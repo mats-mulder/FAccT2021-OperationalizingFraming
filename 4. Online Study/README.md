@@ -1,10 +1,9 @@
 # Online Study Walk-through
 
 __Content:__
-1. Online Evaluation in Context of Study
-2. Blendle Platform
-3. Experimemtal Setup
-4. [Some text](#markdown-header-2-online-evaluation-in-context-of-study)
+1. [Online Evaluation in Context of Study](#online-evaluation-in-context-of-study)
+2. [Blendle Platform](#blendle-platform)
+3. [Experimemtal Setup](#experimemtal-setup)
 
 ## Online Evaluation in Context of Study
 
