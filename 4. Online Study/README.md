@@ -1,5 +1,11 @@
 # Online Study Walk-through
 
+__Content:__
+1. Online Evaluation in Context of Study
+2. Blendle Platform
+3. Experimemtal Setup
+4. [Some text](#markdown-header-2-online-evaluation-in-context-of-study)
+
 ## Online Evaluation in Context of Study
 
 During the study, a novel viewpoint diversification based on the concept of news frames was proposed. During an offline evaluation, the method was found to be capable of increasing the viewpoint diversity score of news article recommendation lists, according to a matric from literature.
