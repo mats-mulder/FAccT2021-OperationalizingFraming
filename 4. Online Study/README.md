@@ -35,4 +35,6 @@ When an article is selected by the user, a reading page opens in which the conte
 
 ## Experimemtal Setup
 
-For the purpose of the experiment, however, a new functionality is implemented which enables the presentation of recommendations on the same topic below the selected article. This section is called "read further on this topic" and can include three different recommendations to the original article. Figure \ref{fig:online-setup-readfurther} provides an example of both the normal functionality, on the left, and the new functionality related to this experiment, on the right.
+For the purpose of the experiment, however, a new functionality is implemented which enables the presentation of recommendations on the same topic below the selected article. This section is called "read further on this topic" and can include three different recommendations to the original article. The functionality, thus, is similar to the 'normal' functionality at the end of a reading page. However, instead of repeating the articles from the todat page, recommendations on the same topic are shown. In example of the functionality is included below:
+
+<img src="https://github.com/MatsMulder95/FAccT2021-OperationalizingFraming/blob/main/4.%20Online%20Study/images/view4.jpg" width="500" />
