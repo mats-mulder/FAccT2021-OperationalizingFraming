@@ -22,14 +22,11 @@ The today page can be seen as the central functionality of Blendle on which the 
 
 When an article is selected by the user, a reading page opens in which the content of the article is shown. In the current setup of Blendle, the space below the content of the article on this reading page is used to repeat the not already read articles from the today page. In this way, users are not forced to go back to the today page to continue reading in Blendle. On exameple of the top and bottom of the reading page is included in the figure below:
 
-<div class="row">
-  <div class="column">
-    <img src="https://github.com/MatsMulder95/FAccT2021-OperationalizingFraming/blob/main/4.%20Online%20Study/images/today.jpg" style="width:100%">
-  </div>
-  <div class="column">
-    <img src="https://github.com/MatsMulder95/FAccT2021-OperationalizingFraming/blob/main/4.%20Online%20Study/images/today.jpg" style="width:100%">
-  </div>
-</div>
+<p float="left">
+  <img src="https://github.com/MatsMulder95/FAccT2021-OperationalizingFraming/blob/main/4.%20Online%20Study/images/today.jpg" width="100" />
+  <img src="https://github.com/MatsMulder95/FAccT2021-OperationalizingFraming/blob/main/4.%20Online%20Study/images/today.jpg" width="100" /> 
+  <img src="https://github.com/MatsMulder95/FAccT2021-OperationalizingFraming/blob/main/4.%20Online%20Study/images/today.jpg" width="100" />
+</p>
 
 
 ### Experimemtal Setup
