@@ -35,6 +35,25 @@ When an article is selected by the user, a reading page opens in which the conte
 
 ## Experimemtal Setup
 
+
+### Providing recommendations on the same topic
+
 For the purpose of the experiment, however, a new functionality is implemented which enables the presentation of recommendations on the same topic below the selected article. This section is called "read further on this topic" and can include three different recommendations to the original article. The functionality, thus, is similar to the 'normal' functionality at the end of a reading page. However, instead of repeating the articles from the todat page, recommendations on the same topic are shown. In example of the functionality is included below:
 
 <img src="https://github.com/MatsMulder95/FAccT2021-OperationalizingFraming/blob/main/4.%20Online%20Study/images/view4.jpg" width="500" />
+
+### Procedure
+
+1. Select Editorial Articles
+Every morning at 6:30, the editorial team publishes five ’must reads’ on the platform. Directly after publication, these articles were manually checked to match
+any topic of the four data sets. Due to contractual limitations between Blendle and publishers, a maximum of two of these ’must reads’
+was selected every day for which recommendations were be provided.
+2. Enrich new articles and calculate diversity and relevance matrices
+Afterwards, the two selected articles were enriched according to the enrichment pipeline. Based on this metadata and the metadata from all articles
+in the data set, the diversity and relevance matrices were composed, in which every
+entry describes the distance or relevance between the new article and an article in
+the data set.
+3. Calculate recommendation for both user groups
+Based on the diversity and relevance matrices, the recommendations were calculated using the proposed viewpoint diversification for both the user group that receives the baseline recommendations and the user group that receives the diversified recommendations.
+4. Publish recommendations
+Finally, these sets were sent to the Blendle back-end to be published on the platform.
