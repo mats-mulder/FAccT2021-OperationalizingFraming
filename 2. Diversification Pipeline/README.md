@@ -10,7 +10,6 @@ To provide more insight into the actual diversification algorithm, this jupyter 
 3. [Reranking](#Re-ranking)
 
 # Enrichment
-<hr>
 
 ```
 x = number of assumed introduction paragraphs of article
