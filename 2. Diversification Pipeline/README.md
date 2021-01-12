@@ -5,7 +5,7 @@ To provide more insight into the actual diversification algorithm, this jupyter 
 
 ### Content
 
-1. [Enrichments](#Step-1:-Enrichment)
+1. [Enrichments](#enrichment)
 2. [Diversity Function](#Diversity-Functions)
 3. [Reranking](#Re-ranking)
 
