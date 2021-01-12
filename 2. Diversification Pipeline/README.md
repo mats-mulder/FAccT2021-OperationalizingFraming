@@ -4,6 +4,7 @@
 To provide more insight into the actual diversification algorithm, this jupyter notebook was set up. However, the actual algorithm used for the study highly depends on the Blendle enrichment proces and datastructure. Since this environment can not be shared publicly, sharing the actual code will not be benefitial. Therefore, it was chosen to create a pseudo-code walk-through of the algorith.
 
 ### Content
+
 1. [Enrichments](#Step-1:-Enrichment)
 2. [Diversity Function](#Diversity-Functions)
 3. [Reranking](#Re-ranking)
