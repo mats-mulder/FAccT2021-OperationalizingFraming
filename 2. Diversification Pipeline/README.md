@@ -1,5 +1,4 @@
 # Introduction
-<hr>
 
 ### Pseudo-code walk-through
 To provide more insight into the actual diversification algorithm, this jupyter notebook was set up. However, the actual algorithm used for the study highly depends on the Blendle enrichment proces and datastructure. Since this environment can not be shared publicly, sharing the actual code will not be benefitial. Therefore, it was chosen to create a pseudo-code walk-through of the algorith.
@@ -7,7 +6,7 @@ To provide more insight into the actual diversification algorithm, this jupyter 
 ### Content
 1. [Enrichments](#Step-1:-Enrichment)
 2. [Diversity Function](#Diversity-Functions)
-3. [Re-ranking](#Re-ranking)
+3. [Reranking](#Re-ranking)
 
 # Enrichment
 <hr>
@@ -100,7 +99,6 @@ For article i in Datasaet:
 ```
 
 # Diversity Functions
-<hr>
 
 ### Problem Definition
 The following pseudo-code calculates the diversity score between two articles related to the problem definition framing function.
@@ -160,7 +158,6 @@ For article i in dataset:
 ```
 
 # Re-ranking
-<hr>
 
 ```
 weighfactors = [w1, w2, w3, w4]
