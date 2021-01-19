@@ -1,9 +1,9 @@
 # Re-ranking Example
 
 __Content:__
-1. Dataset
-2. Re-ranking table
-3. Content Example
+1. [Dataset](#dataset)
+2. [Re-ranking table](#Re-ranking-table)
+3. [Content Example](#content-example)
 
 ## Dataset
 The following dataset was used in the example:
