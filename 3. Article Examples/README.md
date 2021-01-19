@@ -1,24 +1,27 @@
 # Re-ranking Example
 
-The table below involves an example output of the re-ranking algorithm. For each article in the dataset, the algorithm composed a re-ranking of the remaining articles in the dataset. Both a re-ranking based purely on relevance (the baseline) and a re-ranking fully based on diversity (λ=0)  are included. The first 10 items in the re-ranking are shown. 
+__Content:__
+1. Dataset
+2. Re-ranking table
+3. Content Example
 
-### Variables
-The following variables were used in this example:
+## Dataset
+The following dataset was used in the example:
 * __Dataset:__ Corona Virus (52 articles)
 * __List size _s_:__ 3
 * __Cross-validation _k_:__ 10-fold
 
-
-### Article Examples
-
-The corresponding article examples can be found in the 'articles' directory. For each article the following information is included:
-
+Due to contractual limitations, we were not allowed to include all article data. Per article, the following information is included:
 * Title of article
 * First 75 words of article body
 * Publisher ID of article 
 * Link to article on Blendle (one needs a subscription to actually read the full article)
 
-### Re-ranking Table
+__This information can be found in json fromat in the subfolder called 'articles'.__
+
+## Re-ranking table
+
+The table below involves an example output of the re-ranking algorithm. For each article in the dataset, the algorithm composed a re-ranking of the remaining articles in the dataset. Both a re-ranking based purely on relevance (the baseline) and a re-ranking fully based on diversity (λ=0)  are included. The first 10 items in the re-ranking are shown. 
 
 |Article ID|λ=0 (full relevance)|   λ=0.5    |λ=0 (full diversity)|
 |---------:|--------------------|------------|--------------------|
@@ -76,7 +79,11 @@ The corresponding article examples can be found in the 'articles' directory. For
 |        51|[8, 13, 15]         |[13, 8, 15] |[47, 39, 46]        |
 
 
-# Content Example
+## Content Example
+
+Below, a side-by-side comparison of content of the baseline and diverse recommendation list is presented. The lists are calculated to be recommended for the first article (id=0) in the dataset. 
+
+
 
 |     Article ID     |                               Title                               |Publisher|                                                                                                                                                                                                                                                     First 75 words                                                                                                                                                                                                                                                     |                  Blendle Link                   |
 |--------------------|-------------------------------------------------------------------|---------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------|
