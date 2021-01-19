@@ -6,7 +6,7 @@ This repository corresponds to research conducted at the TU Delft in collaborati
 
 If you find the research published in this paper, please consider citing:
 ```
-@inproceedings{mats2021operationalizing,
+@inproceedings{mulder2021operationalizing,
   title={Operationalizing Framing to Support Multiperspective Recommendations of Opinion Pieces},
   author={Mats Mulder and Oana Inel and Jasper Oosterman and Nava Tintarev},
   booktitle={To Appear in the Proceedings of the ACM Conference on Fairness, Accountability, and Transparency (ACM FAccT)},
