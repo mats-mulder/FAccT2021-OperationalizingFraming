@@ -1,5 +1,7 @@
 # Re-ranking Example
 
+This page includes an example of the re-ranking algorithm. First, the details of the dataset are provided. Afterwards, the re-ranking table for different values of λ are presented. Finally, a side-by-side comparison of the content of two recommendation lists is included.
+
 __Content:__
 1. [Dataset](#dataset)
 2. [Re-ranking table](#Re-ranking-table)
